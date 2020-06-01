@@ -1,5 +1,5 @@
 import React from "react";
-import "./app.css";
+import "./App.css";
 import BreakInterval from "./break";
 import SessionLength from "./session";
 import Timer from "./timer";

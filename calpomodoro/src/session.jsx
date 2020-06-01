@@ -1,5 +1,4 @@
 import React from "react";
-import {Button} from "react-bootstrap";
 
 
 function SessionLength(props) {
@@ -19,17 +18,17 @@ function SessionLength(props) {
     return (
         <section>
             <section>
-                <Button
+                <button
                     className={"plus btn-success"}
                     onClick={increaseSession}>
                     {"+"}
-                </Button>
+                </button>
                 <br />
-                <Button
+                <button
                     className={"moins btn-success"}
                     onClick={decreaseSession}>
                     {"-"}
-                </Button>
+                </button>
             </section>
         </section>
     );
